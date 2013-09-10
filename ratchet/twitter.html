@@ -35,8 +35,8 @@
 
   <!-- Make sure all your bars are the first things in your <body> -->
   <header class="bar-title">
-  <a class="button-prev" href="index.html" data-transition="slide-out">
-    Home
+  <a class="button-prev" href="add.html" data-transition="slide-out">
+    Back
   </a>
     <h1 class="title">Prolific</h1>
     <a class="button" href="add.html" data-transition="fade">
@@ -47,32 +47,15 @@
   <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
   <div class="content">
   <div class="content-padded">
-    <ul class="list inset">
-      <li>
-        <a href="twitter.html" data-transition="slide-in">
-          <strong>Twitter</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <strong>Instagram</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <strong>StackOverflow</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <strong>More coming soon...</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-    </ul>
+    <form>
+  <div class="input-group">
+    <div class="input-row">
+      <label>Username</label>
+      <input type="text" placeholder="@username">
+      <a class="button button-block">Add</a>
+    </div>
+  </div>
+</form>
   </div>
   </div>
 
