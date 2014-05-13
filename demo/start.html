@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Demo">
+        <meta name="description" content="Rapid start">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 
-        <title>Galereya. Demo.</title>
+        <title>Galereya. Rapid start.</title>
 
         <link href='http://fonts.googleapis.com/css?family=Scada:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/demo.css">
@@ -13,24 +13,16 @@
         <!--[if lt IE 9]>
         <link rel="stylesheet" href="css/jquery.galereya.ie.css">
         <![endif]-->
-        <style>
-            .galereya-top {
-                position: fixed;
-
-                background: #f6f6f6;
-                background: rgba(246, 246, 246, 0.7);
-            }
-        </style>
     </head>
     <body>
-        <div id="gallery"></div>
+        <div id="gal1"></div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/jquery.galereya.min.js"></script>
         <script>
             $(function() {
-                $('#gallery').galereya({
+                $('#gal1').galereya({
                     load: function(next) {
                         $.getJSON('images.json', function(data) {
                             next(data);
