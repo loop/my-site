@@ -1,7 +1,7 @@
 body
 {
 	margin: 0 auto;
-	padding: 0;
+	padding-top: 20px;
 	font: 100%/1.5'Source Sans Pro', sans-serif;
 	color: #222222;
 	background: #fff url(background.png) repeat;
@@ -10,14 +10,12 @@ body
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Noto Serif', serif;
-	font-weight: normal;
 	margin-top: 0px;
 }
 
 h1
 {
 	color: #222222;
-	margin-bottom: 0.2em;
 	font-size: 5em;
 	font-weight: 900;
 }
