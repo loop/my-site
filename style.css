@@ -99,12 +99,7 @@ a:hover, a:active
 header
 {
 	clear: both;
-	width: 80%;
 	font-size: 0.8125em;
-	max-width: 92.3em;
-	margin: 0 auto;
-	padding: 15px 0px 10px 0px;
-	position: relative;
 	color: #000;
 	text-align: center;
 }
