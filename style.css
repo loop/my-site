@@ -4,7 +4,7 @@ body
 	padding-top: 20px;
 	font: 100%/1.5'Source Sans Pro', sans-serif;
 	color: #222222;
-	background: #fff url(background.png) repeat;
+	background: #fff url("background.png") repeat;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -112,19 +112,6 @@ header
 }
 
 #maincontent
-{
-	clear: both;
-	width: 80%;
-	font-size: 0.8125em;
-	max-width: 92.3em;
-	margin: 0 auto;
-	padding: 1em 0px;
-	color: #333;
-	line-height: 1.5em;
-	position: relative;
-}
-
-.maincontent
 {
 	clear: both;
 	width: 80%;
